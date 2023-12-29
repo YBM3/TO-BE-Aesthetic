@@ -1,0 +1,107 @@
+
+
+
+
+
+
+.AestheticCosmetology__textBox {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 40px;
+  align-items: center;
+  width: calc(100% - 80px);
+  padding-bottom: 24px;
+}
+
+.AestheticCosmetology__title {
+  color: var(--White, var(--White, #fff));
+  text-align: center;
+
+  /* Semi title */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.AestheticCosmetology__servicesTitile {
+  color: var(--Accent-green, #a2c8b1);
+
+  /* Regular text */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+
+.AestheticCosmetology__servicesBox {
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+  color: var(--White, var(--White, #fff));
+
+  /* Regular text */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.AestheticCosmetology__services {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.big {
+  width: calc(100% - 320px);
+  padding: 0 160px 0 160px;
+}
+
+.small {
+  width: calc(100% - 600px);
+  padding: 0 400px 0 160px;
+}
+
+.AestheticCosmetology__servicesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 5px;
+}
+
+.AestheticCosmetology__services_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 24px;
+  height: calc(100% - 60px);
+}
+
+.AestheticCosmetology__content {
+  display: flex;
+  height: 100%;
+}
+
+.AestheticCosmetology__services__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+}
+
+
+

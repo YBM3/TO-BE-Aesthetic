@@ -1,0 +1,73 @@
+{
+  "title": "Інʼєкційна косметологія",
+  "services": [
+    {
+      "title": "",
+      "size": "small",
+      "items": [
+        {
+          "text": "Тріада",
+          "price": "2200 грн"
+        },
+        {
+          "text": "Мезотерапія очі ",
+          "price": "1200 грн"
+        },
+        {
+          "text": "Мезотерапія  обличчя ",
+          "price": "1200 грн"
+        },
+        {
+          "text": "Мезотерапія  (трихологія)",
+          "price": "1500 грн"
+        }
+      ]
+    },
+    {
+      "title": "Біоревіталізація",
+      "size": "small",
+
+      "items": [
+        {
+          "text": "Teosyal Pure Sense Redensity 1 ml",
+          "price": "4000 грн"
+        },
+        {
+          "text": "Teosyal Pure Sense Redensity 3 ml",
+          "price": "7100 грн"
+        },
+        {
+          "text": "Belotero Revive 1 ml",
+          "price": "4800 грн"
+        },
+        {
+          "text": "Juvederm VOLITE 1 ml ",
+          "price": "5800 грн"
+        },
+        {
+          "text": "Saypha Rich 1 ml",
+          "price": "2800 грн"
+        },
+        {
+          "text": "Neauvia 2,5 ml",
+          "price": "3650 грн"
+        }
+      ]
+    },
+    {
+      "title": "Rejuran (пдрн)",
+      "size": "small",
+
+      "items": [
+        {
+          "text": "I (очі) 1 ml ",
+          "price": "3500 грн"
+        },
+        {
+          "text": "S 1 ml",
+          "price": "3500 грн"
+        }
+      ]
+    }
+  ]
+}

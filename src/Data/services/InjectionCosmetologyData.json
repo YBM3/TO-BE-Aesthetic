@@ -1,0 +1,897 @@
+[
+  {
+    "title": "Мезотерапія",
+    "items": [
+      {
+        "title": "Що таке мезотерапія обличчя?",
+        "class": "services__item__textFirst",
+        "description": []
+      },
+      {
+        "title": "Мезотерапія обличчя є сучасною методикою омолодження шкіри, що відбувається за допомогою введення ін’єкційно спеціальних препаратів та комплексу вітамінів. До складу мезококтейлів можуть входити амінокислоти, антиоксиданти, мікроелементи тощо. Відповідно до проблеми пацієнта препарат підбирається лікарем після проведення консультації.",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Дія мезотерапії обличчя",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Мезотерапевтичні процедури спрямовані на те, щоб доставити вітаміни, мінерали, амінокислоти чи інші корисні речовини у дерму. Глибина введення препаратів сягає трьох міліметрів. Суміш речовин, що використовуються називається лікувальними коктейлями чи сироватками. Склад міксу визначається косметологом на основі поточного стану шкірних покривів пацієнтів та терапевтичних цілей ін’єкцій.",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Мезотерапія давно застосовується не тільки з метою омолодження шкіри, але й для усунення акне, розацеа, пігментації, куперозу, темних кіл під очима. При боротьбі з дефектами шкіри на тілі використовуються препарати, що розщеплюють жирові відкладення та покращують циркуляцію крові.",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Показання для мезотерапії:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Сухість або жирність шкіри;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Акне і постакне;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "В'ялість, знижений тонус;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Наявність темних кіл під очима;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Дрібні зморшки;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Купероз;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Тьмяний колір шкіри;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Ознаки фотостаріння;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Веснянки (які хочеться прибрати);",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Шрами;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Пігментні плями;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Будь-які косметичні дефекти;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Целюліт.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Протипоказання:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Вагітність та період лактації;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Алергія на окремі компоненти;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Схильність до утворення келоїдних рубців;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Псоріаз та будь-які шкірні запалення;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "ГРВІ;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Бактеріальні, вірусні чи грибкові інфекції.",
+        "class": "listNoDescriptionLast",
+        "description": []
+      }
+    ]
+  },
+  {
+    "title": "Біоревіталізація",
+    "items": [
+      {
+        "title": "Біоревіталізацію рекомендують проводити жінкам та чоловікам в основному після 25-30 років.",
+        "class": "services__item__textFirst",
+        "description": []
+      },
+
+      {
+        "title": "Показаннями до призначення ін'єкцій є:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Збільшення кількості та вираженості зморшок;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Зниження пружності та еластичності шкіри;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Сухість та лущення;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Розширення пір та надлишкове виділення себума;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Гіперпігментація;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Темні кола під очима;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Нерівномірний рельєф та тон обличчя;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Акне та постакне.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Для яких зон роблять біоревіталізацію?",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Біоревіталізація очей - одна з найефективніших процедур у боротьбі з ранніми ознаками старіння в періорбітальній зоні. Завдяки спеціальній техніці глибокого введення, якою володіють лікарі нашої клініки, реабілітаційний період після процедури відсутній.",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Біоревіталізація обличчя - процедура глибоко зволожує, надає тонус шкірі, вирівнює колір і структуру шкіри. Біоревіталізацію обличчя роблять пацієнти, які часто подорожують. Краще пройти процедуру мінімум за тиждень до перельоту, щоб уникнути набряклості. Курс біоревіталізації рекомендується виконувати до та після відпустки у теплих країнах, де шкіра піддавалася активному сонячному впливу.",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Біоревіталізація рук, як і біоревіталізація шиї і декольте живить зони, які найпершими видають вік. Гіалуронова кислота притягує до шкіри молекули води, в яких містяться необхідні шкірі компоненти.",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Біоревіталізація тіла - косметична процедура для тіла зволожує і підтягує шкіру в області живота, стегон. Курс біоревіталізації робить розтяжки на тілі менш помітними, більш світлими. Зволожена шкіра довше зберігає молодий вигляд.",
+        "class": "services__item__textBoxPaddingLast services__item__textBoxPadding",
+        "description": []
+      }
+    ]
+  },
+  {
+    "title": "Біорепарація",
+    "items": [
+      {
+        "title": "Біорепарація (відновлення) – це ін’єкційна косметологічна процедура покликана вирішувати два основні завдання:",
+        "class": "services__item__textFirst",
+        "description": []
+      },
+      {
+        "title": "Омолодження та профілактика старіння шкіри;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Корекція різних естетичних та дерматологічних проблем (рубці постакне, гіперпігментація, судинні зірочки та розацеа тощо).",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Біорепарація відрізняється від біоревіталізації лише складом препаратів, що вводяться в шкіру – біорепарантів. При біоревіталізації вводяться препарати, що містять гіалуронову кислоту слабкого та середнього ступеня в’язкості. В основі біорепарації лежить внутрішньошкірне введення біологічно активних речовин (БАВ), таких як амінокислоти, поліпептиди, полісахариди на основі гіалуронової кислоти. При цьому частка біологічно активних речовин припадає від 50% до 80% всього складу препарату.",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Важливо відзначити, що біорепарація та біоревіталізація – це дві взаємодоповнюючі процедури, що забезпечують повноцінний догляд за шкірою.",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Показання та протипокази.",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Загалом, процедура призначена для зрілої шкіри та застосовується з метою відновлення та омолодження у таких випадках:",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Сухість шкіри та ознаки зневоднення дермальних тканин;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Зниження тонусу та тургору шкіри;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Усунення зморшок;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Усунення рубців та шрамів, у тому числі постакне;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Корекція гіперпігментації;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Виражена судинна сітка, розацеа;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Профілактика фотостаріння;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Реабілітація після агресивних косметологічних процедур;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Гіперкератоз.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "В окремих випадках процедура може призначатися в молодому віці для вирішення дермато-косметологічних проблем шкіри",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Протипокази для проведення процедури:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Наявність в анамнезі онкологічних захворювань, у тому числі лейкозів і лімфом;",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Період вагітності та лактації;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Захворювання кровозгортаючої системи, у тому числі схильність до кровотеч та тромбозів;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Схильність до утворення гіпертрофічних та келоїдних рубців;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Наявність аутоімунної патології;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Гострі захворювання, зокрема інфекційної природи;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Підвищена температура тіла;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Наявність у місці передбачуваної ін’єкції проявів інфекційних дерматологічних захворювань (герпес, гнійнички тощо).",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Біоревіталізація тіла - косметична процедура для тіла зволожує і підтягує шкіру в області живота, стегон. Курс біоревіталізації робить розтяжки на тілі менш помітними, більш світлими. Зволожена шкіра довше зберігає молодий вигляд.",
+        "class": "services__item__textBoxPaddingLast services__item__textBoxPadding",
+        "description": []
+      }
+    ]
+  },
+  {
+    "title": "Ботулінотерапія",
+    "items": [
+      {
+        "title": "Ботулінотерапія – це ін’єкційна процедура профілактики і корекції мімічних зморшок з використанням препарату – ботулотоксину. Препарат швидко, якісно і надовго вирішує проблему небажаних мімічних зморшок.",
+        "class": "services__item__textFirst",
+        "description": []
+      },
+      {
+        "title": "Ботокс, який вводитися підшкірно в проблемних ділянках, викликає розслабленість активних м’язів, що сприяє розгладженню зморшок і шкірних заломів. Також препарат використовується з метою лікування гіпергідрозу (підвищеного потовиділення).",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Після введення препарату м’яз тимчасово перестає скорочуватися, що сприяє розгладженню зморшок. Для підтримки постійного ефекту достатньо робити процедуру 2 рази на рік. Процедура введення ботокса не вимагає спеціальної підготовки. Дія препарату настає в середньому через 48-72 години.",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Показання:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Мімічні зморшки навколо очей, міжбрівній складці (зморшки гніву), поперечні та поздовжні зморшки на чолі;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Носогубні складки;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Зморшки навколо очей та на переніссі;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Корекція підвищеної пітливості в пахових зонах, ступнях, долонях;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Корекція гіперпігментації;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Покращення естетичності при асиметрії брів, кутиків очей та посмішки;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Втрата тонусу нижньої частини обличчя. Прибираються опущені кутики роту, які надають сумного вигляду, формується чіткий “овал Нефертіті”;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Мімічні зморшки на підборідді.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Протипоказання",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Від уколів ботоксом слід відмовитися:",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Особам молодше 18 років;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Вагітним та годуючим грудьми жінкам;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "При пошкодженні шкіри в зоні ін'єкції: герпес, акне, прищі, подряпини, рани;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "У період прийому антикоагулянтів та антибіотиків;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "При лихоманці, застуді та грипі;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "При короткозорості та міопії;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Хворим на гемофілію та міастенію;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Що не можна робити після ботоксу?",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Існує низка обмежень після процедури ботулінотерапії носа, очей і чола. Рекомендації після ботоксу:",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "протягом чотирьох годин не приймати горизонтального положення тіла;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "не вживати алкоголь і гостру їжу протягом двох тижнів;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "не відвідувати сауну і лазню протягом двох тижнів;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Не торкатися обличчя руками протягом 12 годин після ін'єкцій;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "не відвідувати солярій протягом 14 днів.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Після ботоксу не можна робити фізичні вправи, пов'язані з нахилами, різкими рухами і підняттям важких предметів протягом двох тижнів. Також необхідно перед ботулінотерапією попередити лікаря- косметолога про прийом лікарських засобів. Деякі препарати можуть негативно поєднуватися з ін'єкціями ботоксу і викликати ускладнення.",
+        "class": "services__item__textBoxPaddingLast services__item__textBoxPadding",
+        "description": []
+      }
+    ]
+  },
+  {
+    "title": "Контурна пластика",
+    "items": [
+      {
+        "title": "Контурна пластика - ін'єкційна методика, яка дозволяє ефективно коригувати зовнішні вади обличчя, усувати вікові зміни шкіри, а також заповнювати нерівності шкіри за наявності рубців. Для цього в глибокі шари шкіри вводяться щільні препарати, які ще називають філерами. Процедура контурної корекції – чудова альтернатива небезпечному хірургічному втручанню. Таким чином, контурна пластика - це введення в проблемні зони спеціального гелю натурального походження за допомогою тонкої голки чи канюлі з метою скоригувати форми, об'єми або контури обличчя та тіла.",
+        "class": "services__item__textFirst",
+        "description": []
+      },
+      {
+        "title": "Показання до ін'єкційної контурної пластики",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+
+      {
+        "title": "Ін'єкційна контурна пластика стане незамінною процедурою за таких показань: При необхідності гармонізувати риси обличчя або усунути зовнішні дефекти (асиметричність обличчя).",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Показання:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Контурна ін'єкційна пластика ефективна за бажання збільшити тонкі губи, виправити нечіткі контури чи його дефекти;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Якщо потрібно виправити форму підборіддя;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Для корекції форми вилиць;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Контурна пластика зморшок результативна у боротьбі проти зморшок у періорбітальній ділянці («гусячі лапки»);",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "При виражених носогубних зморшках та складках;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Якщо є потреба у заповненні міжбрівних зморшок.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Протипоказання до процедури",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Як і будь-яка косметологічна процедура, контурна пластика має протипоказання. Відмовитися від безопераційної контурної пластики доведеться у таких випадках:",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Онкологічне захворювання;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Будь-які шкірні захворювання на активній стадії;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Захворювання системи згортання крові;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Інші захворювання на стадії загострення;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Алергія на компоненти препаратів;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Вагітність та період лактації.",
+        "class": "listNoDescription",
+        "description": []
+      },
+
+      {
+        "title": "Біоревіталізація тіла - косметична процедура для тіла зволожує і підтягує шкіру в області живота, стегон. Курс біоревіталізації робить розтяжки на тілі менш помітними, більш світлими. Зволожена шкіра довше зберігає молодий вигляд.",
+        "class": "services__item__textBoxPaddingLast services__item__textBoxPadding",
+        "description": []
+      }
+    ]
+  },
+  {
+    "title": "Векторний ліфтинг і колагеностимуляція",
+    "items": [
+      {
+        "title": "Це процедура колагеностимуляції препаратом на основі гідроксиапатиту кальцію, в результаті якої відбувається вироблення «нового колагену», який сприяє ущільненню шкіри, підвищенню її тургору та зміцненню зв’язок. Основними показаннями є: втрата тонусу шкіри, в’ялість і ослаблення зв’язок обличчя.",
+        "class": "services__item__textFirst",
+        "description": []
+      },
+      {
+        "title": "Найчастіше для такої процедури використовують препарат Radiesse.",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Radiesse – це один із найбільш вивчених філерів у світі, (схвалений FDA), який не викликає запальної реакції в тканинах, а також не мігрує. Згодом філер повністю виводиться (біодеградує) з організму природним шляхом. Важливо розуміти, що препарати на основі гіалуронової кислоти та препарати гідроксиапатиту кальцію кардинально відрізняються.",
+        "class": "services__item__textBoxPadding",
+        "description": []
+      },
+      {
+        "title": "Основні відмінності:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Філер на основі гіалуронової кислоти   –   препарат, який дає об’єм. У той же час препарат на основі гідроксиапатиту кальцію – це препарат колагеностимуляції. Відповідно вони можуть зробити об’ємне моделювання, але набагато складніше, ніж при використанні філерів на основі гіалуронової кислоти. Тому, ключове завдання Радіеса – стимуляція колагену, ущільнення шкіри.",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Radiesse не є гідрофільним (не притягає воду) та гарантує відсутність ефекту одутлого обличчя. Якщо ж ми говоримо про філери на основі гіалуронової кислоти, то в залежності від в’язкості, еластичності та відсотка гіалуронової кислоти в самому філері, завжди (в більшій чи меншій мірі) будуть притягувати воду.",
+        "class": "services__item__textBox",
+        "description": []
+      },
+      {
+        "title": "Показання для застосування:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Опущених брів, що формуються вигляд «похмурого» обличчя;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Западанні скроневих ділянок;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Гравітаційному птозі тканин обличчя;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Виражених носослізних борознах;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Зморшки – «маріонеток»;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Вікові «брилі» – розмиваються контури нижньої щелепи, тканини нависають;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Зморшки  в будь-якій ділянці обличчя;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Провисанні щік;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Подвійне підборіддя;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Атрофічні рубцеві зміни.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Переваги препарату Radiesse:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "100% біосумісність. У складі препарату немає компонентів тваринного походження, що зводить до мінімуму можливість алергічних реакцій.",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Не надає «зайвих об ємів», препарат не є гідрофільний.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Стимулює вироблення власного колагену, який створює ефект оксамитової шкіри і неперевершеного ліфтингу. Саме завдяки неоколагенезу дія препарату триває 18 і більше місяців.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Великою перевагою є також те, що препарат вводиться за допомогою канюлі. Канюля – це медична гнучка трубка з заокругленим кінцем, через яку вводять препарат. На відміну від голки, яка за рахунок гострого кінця “розриває” тканини і може травмувати судини та нервові волокна в зоні введення, канюля дозволяє м’яко “розсовувати” тканини та оминати, наприклад, такі “перешкоди” як судини, не травмуючи їх. Період реабілітації з відомими раніше набряками і синцями після канюлі практично відсутній, так як тканини зберігають свою цілісність.",
+        "class": "listNoDescription",
+        "description": []
+      },
+
+      {
+        "title": "Протипоказання:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Вагітність і період лактації;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Онкологічні захворювання;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Епілепсія;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Аутоімунні захворювання;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Захворювання крові;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Цукровий діабет та інші хронічні захворювання в стадії декомпенсації;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Запальні захворювання, що супроводжуються підвищеною температурою тіла;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Введення імплантатів, що не здатні до біодеградації, в зоні проведення процедури;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Захворювання шкіри в місці ін’єкції;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Алергічні реакції на будьякий з компонентів препарату;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Схильність до утворення келоїдних рубців.",
+        "class": "listNoDescription services__item__textBoxPaddingLast",
+        "description": []
+      }
+    ]
+  },
+  {
+    "title": "Бланшинг",
+    "items": [
+      {
+        "title": "Бланшинг (від франц. побіління) – найсучасніший ін’єкційний метод омолодження (розгладження зморшок). Особливість техніки – поверхневе введення філлера в шкіру дрібними безболісними уколами з метою заповнення зморшок навіть в зонах, що не піддаються заповненню (наприклад, на щоках, на лобі, навколо рота, на шиї тощо).  Процедура бланшингу проводиться тільки німецьким препаратом Belotero виробництва компанії «MerzPharma» (на основі гіалуронової кислоти). Цей філлер – абсолютно безпечний. Він єдиний з аналогічних препаратів отримав американський сертифікат якості FDA. Його безопечність доведена науковими дослідженнями та тисячами застосуваннями в усьому світі.",
+        "class": "services__item__textFirst",
+        "description": []
+      },
+
+      {
+        "title": "Показання до бланшингу:",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Зморшки навколо очей",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Нососльозна борозна;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Міжбрівні складки та зморшки на лобі;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Зморшки на щоках (лінії сну);",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Періоральні кисетні та ін;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": " Кругові складки та заломи на шиї;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Рубці постакне, шрами.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Перваги методу:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "достатньо однієї процедури для видимого результату;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "не вимагає підготовки та реабілітації;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "безболісна та нешкідлива;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "ефект тримається від кількох місяців до року.",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Протипоказання до процедури:",
+        "class": "listTitleNoDescription",
+        "description": []
+      },
+      {
+        "title": "Активні запальні процеси на поверхні шкіри;",
+        "class": "listAfter listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Гострі вірусні чи бактеріальні інфекції чи пов'язані із нею стану;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Вагітність та період годування груддю;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Онкологічне захворювання;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": "Підвищена чутливість до гіалуронової кислоти;",
+        "class": "listNoDescription",
+        "description": []
+      },
+      {
+        "title": " Вік до 18 років.",
+        "class": "services__item__textBoxFirst services__item__textBoxPaddingLast listNoDescription",
+        "description": []
+      }
+    ]
+  }
+]

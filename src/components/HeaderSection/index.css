@@ -1,0 +1,84 @@
+.header_section {
+  padding-bottom: 150px;
+  position: relative;
+}
+
+.header_section__container {
+  background: url("../../assets/img/pexels-anna-shvets-5069401\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: 20px;
+}
+
+.header_section__button {
+  width: calc(140px - 2px);
+  height: 140px;
+  border-radius: 50%;
+  background-color: #386c5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Small button text */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 15%;
+  bottom: 10.5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  border: var(--Main-dark-green, #386C5F) 2px solid;
+
+}
+
+.header_section__button:hover {
+  background-color: var(--Transparent-green, rgba(56, 108, 95, 0.60));
+  cursor: pointer;
+
+}
+
+.header_section__textBox {
+  border-radius: 0px 0px 20px 0px;
+  background: var(--Transparent-dark-green, rgba(56, 108, 95, 0.6));
+  backdrop-filter: blur(10px);
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_section__title {
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Semi title */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header_section__subtitle {
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Regular text */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

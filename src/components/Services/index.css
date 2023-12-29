@@ -1,0 +1,196 @@
+.services {
+  padding-bottom: 80px;
+}
+
+.services__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.services__TitleText {
+  padding-left: 40px;
+  color: var(--Black, var(--Black, #000));
+  text-align: center;
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.services__content_item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--White, var(--White, #fff));
+  text-align: center;
+
+  /* Semi title */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.services__content_item__titleText {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid var(--Main-dark-green, #386c5f);
+  background: var(--Main-dark-green, #386c5f);
+  transition: all 0.3s ease-in-out;
+}
+
+.services__content_item__titleText:hover {
+  background: var(--Transparent-green, rgba(56, 108, 95, 0.6));
+  cursor: pointer;
+}
+
+.services__content
+  > .services__content_itemBox:nth-child(1)
+  > .services__content_item {
+  background: url("../../assets/img/young-beautiful-girl-lies-beautician-s-table-receives-procedures-light-facial-massage\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 110px 0;
+  width: 100%;
+}
+
+.services__content
+  > .services__content_itemBox:nth-child(2)
+  > .services__content_item {
+  background: url("../../assets/img/image\ 15.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 110px 0;
+  width: 100%;
+}
+
+.services__content
+  > .services__content_itemBox:nth-child(3)
+  > .services__content_item {
+  background: url("../../assets/img/beautiful-young-girl-beauty-salon\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 110px 0;
+  width: 100%;
+}
+
+.services__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.services__content_itemBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* geeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+.services__content_menu {
+  border-radius: 0px 0px 20px 20px;
+  background: var(--Transparent-green, rgba(56, 108, 95, 0.6));
+  backdrop-filter: blur(10px);
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.services__content_menu__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  color: var(--White, var(--White, #fff));
+  text-align: justify;
+
+  /* Semi title */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.services__content_menu__itemBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.open {
+  rotate: 180deg;
+}
+
+.services__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  
+}
+
+.services__list__itemBox {
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.services__menu__textBox {
+  display: flex;
+  gap: 20px;
+  padding-left: 80px;
+  cursor: pointer;
+}
+
+.services__item__text {
+  /* padding-top: 24px;
+  padding-left: 40px; */
+  color: var(--White, var(--White, #fff));
+  text-align: justify;
+
+  /* Regular text */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.services__list__itemBox__Title {
+  padding-left: 80px;
+  cursor: pointer;
+}
+
+.services__list__itemBox__Title {
+  color: var(--White, var(--White, #fff));
+  text-align: justify;
+
+  /* Text for links or lists */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}

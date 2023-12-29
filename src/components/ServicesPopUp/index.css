@@ -1,0 +1,225 @@
+.ServicesPopUp {
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  overflow: hidden;
+}
+
+.ServicesPopUp__container {
+  border-radius: 20px;
+  background: var(--Transparent-green, rgba(56, 108, 95, 0.6));
+  backdrop-filter: blur(10px);
+  width: 1280px;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ServicesPopUp__circle {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: var(--White, #fff);
+}
+
+.ServicesPopUp__servicesTabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  gap: 10px;
+}
+
+.circle_active {
+  background-color: var(--Green, #a2c8b1);
+}
+
+.ServicesPopUp__tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServicesPopUp__buttonNext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 449px;
+  right: 40px;
+  z-index: 4;
+  transition: all 0.3s ease-in-out;
+}
+
+.ServicesPopUp__buttonNext:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.ServicesPopUp__buttonBack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 449px;
+  left: 40px;
+  z-index: 4;
+  transition: all 0.3s ease-in-out;
+  rotate: 180deg;
+}
+
+.ServicesPopUp__buttonBack:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.ServicesPopUp__button {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServicesPopUp__img {
+  width: 30px;
+  height: 30px;
+}
+
+.ServicesPopUp__close {
+}
+
+.ServicesPopUp__close {
+  position: absolute;
+  top: 54px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.ServicesPopUp__tabsContent {
+  position: relative;
+  width: 1280px;
+  height: 950px;
+}
+
+/* .ServicesPopUp__tabsContent {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ServicesPopUp__tab {
+    position: absolute;
+    width: 100%;
+    transition: transform 0.7s linear;
+    left: 100%;
+    top: 0;
+    visibility: hidden;
+  }
+  
+  .ServicesPopUp__tab.active {
+    transform: translateX(-100%);
+    position: relative;
+    visibility: visible;
+  }
+  
+  .ServicesPopUp__tabsContent.right .ServicesPopUp__tab.active {
+    animation: slideInFromRight 0.7s forwards;
+  }
+  
+  .ServicesPopUp__tabsContent.left .ServicesPopUp__tab.active {
+    animation: slideInFromLeft 0.7s forwards;
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+
+.ServicesPopUp__tab {
+  position: absolute;
+  width: 100%;
+  visibility: hidden;
+  padding-bottom: 60px;
+  height: calc(100% - 60px);
+}
+
+.ServicesPopUp__tab.active {
+  visibility: visible;
+}
+
+.ServicesPopUp__tab.prev {
+  visibility: visible;
+}
+
+.ServicesPopUp__tab.slideInRight {
+  animation: slideInRight 0.5s forwards;
+}
+
+.ServicesPopUp__tab.slideOutRight {
+  animation: slideOutRight 0.5s forwards;
+}
+
+.ServicesPopUp__tab.slideInLeft {
+  animation: slideInLeft 0.5s forwards;
+}
+
+.ServicesPopUp__tab.slideOutLeft {
+  animation: slideOutLeft 0.5s forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

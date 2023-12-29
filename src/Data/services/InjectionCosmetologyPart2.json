@@ -1,0 +1,72 @@
+{
+  "title": "Інʼєкційна косметологія",
+  "services": [
+    {
+      "title": "Mastelli (пднр)",
+      "size": "small",
+      "items": [
+        {
+          "text": "Newest, Plinest, Plinest fast 2 ml",
+          "price": "3850 грн"
+        },
+        {
+          "text": "Aquashine 2 ml",
+          "price": "3850 грн"
+        }
+      ]
+    },
+    {
+      "title": "Ботулінотерапія Ботокс/Диспорт/Ксеомін",
+      "size": "small",
+
+      "items": [
+        {
+          "text": "Чоло, міжбрів‘я, очі",
+          "price": "6200 грн"
+        },
+        {
+          "text": "Очі",
+          "price": "3200 грн"
+        },
+        {
+          "text": "Міжбрів‘я",
+          "price": "2800 грн"
+        },
+        {
+          "text": "Шия (платізма)",
+          "price": "5800 грн"
+        }
+      ]
+    },
+    {
+      "title": "Nabota",
+      "size": "small",
+
+      "items": [
+        {
+          "text": "Чоло , міжбрівка, очі",
+          "price": "3600 грн"
+        },
+        {
+          "text": "S 1 ml",
+          "price": "3500 грн"
+        }
+      ]
+    },
+    {
+      "title": "Бланч (Бланшинг)",
+      "size": "small",
+
+      "items": [
+        {
+          "text": "Belotero  1 ml",
+          "price": "5500 грн"
+        },
+        {
+          "text": "Juvederm Ultra 2 0,5 ml",
+          "price": "3500 грн"
+        }
+      ]
+    }
+  ]
+}

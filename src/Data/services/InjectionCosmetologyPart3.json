@@ -1,0 +1,85 @@
+{
+  "title": "Інʼєкційна косметологія",
+  "services": [
+    {
+      "title": "Векторний ліфтинг, колагеностимуляція.",
+      "size": "big",
+      "items": [
+        {
+          "text": "ГІДРОКСИАПАТИТ КАЛЬЦІЮ - RADIESSE (MERZ AESTHETICS) 1,5 ml",
+          "price": "9500 грн"
+        }
+      ]
+    },
+    {
+      "title": "Контурна пластика",
+      "size": "small",
+      "items": [
+        {
+          "text": "ГУБИ",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "title": "ФІЛЕРИ N°1",
+      "size": "small",
+      "items": [
+        {
+          "text": "Juvederm ULTRA SMILE 0.55 ml",
+          "price": "4500 грн"
+        },
+        {
+          "text": "Juvederm VOLIFT RETOUCH 0.55 ml",
+          "price": ""
+        },
+        {
+          "text": "Juvederm ULTRA 2 0.55 ml",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "title": "ФІЛЕРИ N°2",
+      "size": "small",
+      "items": [
+        {
+          "text": "Neuramis 1 ml.",
+          "price": "3800 грн"
+        },
+        {
+          "text": "Juvederm ULTRA 3 1 ml",
+          "price": "5900 грн"
+        },
+        {
+          "text": "Juvederm ULTRA 4 1 ml",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "title": "ФІЛЕРИ N°3",
+      "size": "small",
+      "items": [
+        {
+          "text": "Juvederm VOLIFT 1 ml",
+          "price": "6800 грн"
+        }
+      ]
+    },
+    {
+      "title": "ФІЛЕРИ N°4",
+      "size": "small",
+      "items": [
+        {
+          "text": "Belotero INTENSE 1 ml",
+          "price": "6800 грн"
+        },
+        {
+          "text": "Belotero INTENSE+lido 1 ml",
+          "price": ""
+        }
+      ]
+    }
+  ]
+}

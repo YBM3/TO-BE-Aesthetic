@@ -1,0 +1,70 @@
+{
+  "title": "Інʼєкційна косметологія",
+  "services": [
+    {
+      "title": "Контурна пластика",
+      "size": "big",
+      "items": [
+      ]
+    },{
+      "title": "НОСОСЛІЗНА БОРОЗНА, ВИЛИЦІ, ПІДБОРІДДЯ, СКРОНІ",
+      "size": "big",
+      "items": [
+      ]
+    },
+    {
+      "title": "ФІЛЕРИ N°1",
+      "size": "small",
+      "items": [
+        {
+          "text": "Juvederm ULTRA 4 1 ml",
+          "price": "5900 грн"
+        }
+      ]
+    },
+    {
+      "title": "ФІЛЕРИ N°2",
+      "size": "small",
+      "items": [
+        {
+          "text": "Belotero SOFT + lido",
+          "price": "5900 грн"
+        },
+        {
+          "text": "Juvederm VOLBELLA 1 ml",
+          "price": ""
+        },
+        {
+          "text": "Juvederm VOLUMA 1 ml",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "title": "ФІЛЕРИ N°3",
+      "size": "small",
+      "items": [
+        {
+          "text": "Juvederm VOLUX 1 ml",
+          "price": "6900 грн"
+        },
+        {
+          "text": "Belotero VOLUME + lido 1 ml",
+          "price": ""
+        },
+        {
+          "text": "Belotero BALANCE 1 ml",
+          "price": ""
+        },
+        {
+          "text": "Belotero BALANCE + lido 1 ml",
+          "price": ""
+        },
+        {
+          "text": "Teosyal REDENSITY || 1 ml",
+          "price": ""
+        }
+      ]
+    }
+  ]
+}

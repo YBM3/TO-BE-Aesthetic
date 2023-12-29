@@ -1,0 +1,17 @@
+.SpaProcedures__discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.SpaProcedures__discount_container {
+  padding: 20px 80px;
+  border-radius: 20px;
+  background: var(--Accent-green, #a2c8b1);
+  width: calc(960px - 160px);
+  height: calc(80px - 40px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

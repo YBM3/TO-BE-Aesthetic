@@ -1,0 +1,194 @@
+.services__list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.services__list.openList {
+  visibility: visible;
+}
+
+.services__list.closeList {
+  max-height: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.services__item__text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.services__item__text.openText {
+  visibility: visible;
+}
+
+.services__item__text.closeText {
+  max-height: 0px; /* This value may need to be adjusted */
+  transition: all 0.5s ease-in-out;
+}
+
+.services__item__textBox {
+  display: block;
+  padding-top: 24px;
+  padding-left: 0px;  
+  text-decoration: none;
+}
+
+.services__item__textBoxPadding {
+  display: block;
+  padding-top: 40px;
+  padding-left: 0px;  
+  text-decoration: none;
+}
+
+.services__item__textBoxAfterList {
+  display: block;
+  padding-top: 40px;
+  padding-left: 0px;  
+  text-decoration: none;
+}
+
+.listTitleFirst {
+  display: flex;
+  padding-top: 40px;
+}
+
+.services__item__textBoxLast {
+  display: block;
+  padding-bottom: 80px;
+  padding-left: 0px;  
+  text-decoration: none;
+
+}
+
+.services__item__textBoxPaddingLast {
+  display: block;
+  padding-bottom: 80px;
+  padding-left: 0px;  
+  text-decoration: none;
+
+}
+
+.services__item__textBoxFirst {
+  display: block;
+  padding-bottom: 40px;
+  padding-left: 0px;  
+  text-decoration: none;
+}
+
+.services__item__textFirst {
+  display: block;
+  padding-top: 0px;
+  padding-left: 0px;  
+  text-decoration: none;
+
+}
+
+.list {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: inside;
+  padding-left: 30px;
+  position: relative;
+}
+
+.listNoDescription {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: inside;
+  padding-left: 30px;
+  position: relative;
+  text-decoration: none;
+}
+
+.listNoDescription::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 4px;
+}
+
+.list::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 4px;
+}
+
+.listAfter {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: inside;
+  padding-left: 30px;
+  position: relative;
+}
+
+.listAfter::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 34px;
+  left: 4px;
+}
+
+.listTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: inside;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.listTitleNoDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: inside;
+  padding-top: 40px;
+  padding-left: 40px;
+  text-decoration: none;
+}
+
+.listBefore {
+  padding-top: 40px;
+}
+
+
+.services__list__noDescription {
+  padding-left: 40px;
+}
+
+.services__item__textBoxEnd {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  padding-left: 0px;  
+  text-decoration: none;
+}
