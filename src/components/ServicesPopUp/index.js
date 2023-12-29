@@ -10,7 +10,7 @@ import InjectionCosmetologyPart3 from "../InjectionCosmetologyPart3";
 import InjectionCosmetologyPart4 from "../InjectionCosmetologyPart4";
 import SpaProcedures from "../SpaProcedures";
 
-function ServicesPopUp({ closePopup, isServicesPopUpOpen, setIsPopupOpen }) {
+function ServicesPopUp({ closePopup, isServicesPopUpOpen }) {
   const [activeTab, setActiveTab] = useState(0);
   const [prevTab, setPrevTab] = useState(null);
   const [direction, setDirection] = useState(null);
@@ -72,7 +72,14 @@ function ServicesPopUp({ closePopup, isServicesPopUpOpen, setIsPopupOpen }) {
     >
       <div className="ServicesPopUp__container">
         <div className="ServicesPopUp__servicesTabs">
-        <div className="ServicesPopUp__close" onClick={() => { closePopup(); setIsPopupOpen(false); }}>            <img
+          <div
+            className="ServicesPopUp__close"
+            onClick={() => {
+              closePopup();
+            }}
+          >
+            {" "}
+            <img
               className="ServicesPopUp__img"
               src={cross}
               alt="ServicesPopUp"

@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.header_section__container {
+.headerAboutUs_section__container {
   background: url("../../assets/img/woman-receiving-beauty-treatment-skin-care\ 1.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +25,7 @@
   align-items: center;
   color: var(--White, #fff);
   text-align: center;
+  text-decoration: none;
 
   /* Small button text */
   font-family: Inter;
@@ -37,14 +38,12 @@
   bottom: 10.5%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease-in-out;
-  border: var(--Main-dark-green, #386C5F) 2px solid;
-
+  border: var(--Main-dark-green, #386c5f) 2px solid;
 }
 
 .header_section__button:hover {
-  background-color: var(--Transparent-green, rgba(56, 108, 95, 0.60));
+  background-color: var(--Transparent-green, rgba(56, 108, 95, 0.6));
   cursor: pointer;
-
 }
 
 .header_section__textBox {
@@ -59,7 +58,7 @@
   gap: 20px;
 }
 
-.header_section__title {
+.headerAboutUs_section__title {
   color: var(--White, #fff);
   text-align: center;
 
@@ -69,9 +68,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-right: 433px;
 }
 
-.header_section__subtitle {
+.headerAboutUs_section__subtitle {
   color: var(--White, #fff);
   text-align: center;
 
@@ -81,4 +81,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left: 205px;
+}
+
+.header_section_services__buttonText {
+  color: var(--White, #fff);
+  text-decoration: none;
 }

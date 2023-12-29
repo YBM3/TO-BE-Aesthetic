@@ -33,7 +33,7 @@ function ContactUs() {
   });
 
   return (
-    <section className="ContactUs">
+    <section className="ContactUs" id="ContactUs">
       <div className="ContactUs__container">
         <div className="ContactUs__map">
           <MapContainer center={defaultCenter} zoom={defaultZoom}>

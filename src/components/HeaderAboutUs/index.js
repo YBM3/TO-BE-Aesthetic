@@ -4,22 +4,20 @@ import "./index.css";
 function HeaderAboutUs() {
   return (
     <section className="header_section">
-      <div className="header_section__container">
+      <div className="headerAboutUs_section__container">
         <div className="header_section__textBox">
-          <h1 className="header_section__title">
-            Косметологічний центр TO BE Aesthetic
-          </h1>
-          <p className="header_section__subtitle">
-            Гармонія зовнішності та самочуття з кожним візитом!
+          <h1 className="headerAboutUs_section__title">Ваша краса -</h1>
+          <p className="headerAboutUs_section__subtitle">
+            наше мистецтво, наша майстерність
           </p>
         </div>
-        <div className="header_section__button">
+        <a href="#ContactUs" className="header_section__button">
           <span className="header_section__buttonText">
             Записатись
             <br />
             на прийом
           </span>
-        </div>
+        </a>
       </div>
     </section>
   );

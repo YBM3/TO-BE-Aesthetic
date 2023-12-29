@@ -3,16 +3,16 @@ import "./index.css";
 
 import logo from "../../assets/img/Logo.png";
 import ServicesPopUp from "../ServicesPopUp";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   const [isServicesPopUpOpen, setIsServicesPopUpOpen] = useState(false);
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const location = useLocation();
 
   const handleServicesClick = (event) => {
     event.preventDefault();
     setIsServicesPopUpOpen(true);
-    setIsPopupOpen(true);
   };
 
   return (
@@ -27,21 +27,33 @@ function Header() {
         <div className="header__nav">
           <ul className="header__navList">
             <li className="header__navItem">
-              <Link to="/services" className="header__navLink">
+              <Link
+                to="/services"
+                className={`header__navLink ${
+                  location.pathname === "/services" ? "active" : ""
+                }`}
+              >
                 Послуги
               </Link>
             </li>
             <li className="header__navItem">
               <a
                 href="/"
-                className={`header__navLink ${isPopupOpen ? "active" : ""}`}
+                className={`header__navLink ${
+                  isServicesPopUpOpen ? "active" : ""
+                }`}
                 onClick={handleServicesClick}
               >
                 Ціни
               </a>
             </li>
             <li className="header__navItem">
-              <Link to="aboutUs" className="header__navLink">
+              <Link
+                to="/aboutUs"
+                className={`header__navLink ${
+                  location.pathname === "/aboutUs" ? "active" : ""
+                }`}
+              >
                 Про нас
               </Link>
             </li>
@@ -56,7 +68,6 @@ function Header() {
         <ServicesPopUp
           closePopup={() => setIsServicesPopUpOpen(false)}
           isServicesPopUpOpen={isServicesPopUpOpen}
-          setIsPopupOpen={setIsPopupOpen}
         />
       </div>
     </header>

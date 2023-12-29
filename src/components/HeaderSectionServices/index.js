@@ -13,13 +13,13 @@ function HeaderSectionServices() {
             з найкращими фахівцями !
           </p>
         </div>
-        <div className="header_section_services__button">
+        <a href="#ContactUs" className="header_section_services__button">
           <span className="header_section_services__buttonText">
             Записатись
             <br />
             на прийом
           </span>
-        </div>
+        </a>
       </div>
     </section>
   );

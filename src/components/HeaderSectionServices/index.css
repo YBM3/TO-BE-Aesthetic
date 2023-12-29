@@ -25,6 +25,7 @@
   align-items: center;
   color: var(--White, #fff);
   text-align: center;
+  text-decoration: none;
 
   /* Small button text */
   font-family: Inter;

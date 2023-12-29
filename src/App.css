@@ -133,7 +133,6 @@ table {
 
 .App {
   position: relative;
-
 }
 
 .App::after {
@@ -150,4 +149,7 @@ table {
   z-index: -1;
 }
 
-
+html,
+body {
+  scroll-behavior: smooth;
+}

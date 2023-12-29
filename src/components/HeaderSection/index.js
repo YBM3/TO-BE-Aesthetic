@@ -13,13 +13,13 @@ function HeaderSection() {
             Гармонія зовнішності та самочуття з кожним візитом!
           </p>
         </div>
-        <div className="header_section__button">
+        <a href="#ContactUs" className="header_section__button">
           <span className="header_section__buttonText">
             Записатись
             <br />
             на прийом
           </span>
-        </div>
+        </a>
       </div>
     </section>
   );
