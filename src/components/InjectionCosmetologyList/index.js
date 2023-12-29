@@ -35,7 +35,7 @@ function InjectionCosmetologyList({isMenuOpen}) {
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [InjectionCosmetologyData]);
+  }, [contentRefs]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -47,7 +47,7 @@ function InjectionCosmetologyList({isMenuOpen}) {
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [InjectionCosmetologyData]);
+  }, [listRefs]);
 
   useEffect(() => {
     setListHeights(
@@ -55,7 +55,7 @@ function InjectionCosmetologyList({isMenuOpen}) {
         listRefs[index].current ? listRefs[index].current.scrollHeight : 0
       )
     );
-  }, [InjectionCosmetologyData]);
+  }, [listRefs]);
 
   const handleClick = (i) => {
     setExpandedItem(expandedItem === i ? null : i);

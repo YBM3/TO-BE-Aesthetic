@@ -35,7 +35,7 @@ function SpaProceduresList({ isMenuOpen }) {
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [SpaProceduresData]);
+  }, [contentRefs]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -47,7 +47,7 @@ function SpaProceduresList({ isMenuOpen }) {
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [SpaProceduresData]);
+  }, [listRefs]);
 
   useEffect(() => {
     setListHeights(
@@ -55,7 +55,7 @@ function SpaProceduresList({ isMenuOpen }) {
         listRefs[index].current ? listRefs[index].current.scrollHeight : 0
       )
     );
-  }, [SpaProceduresData]);
+  }, [listRefs]);
 
   const handleClick = (i) => {
     setExpandedItem(expandedItem === i ? null : i);

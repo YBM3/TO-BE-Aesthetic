@@ -33,7 +33,7 @@ function Header() {
             </li>
             <li className="header__navItem">
               <a
-                href="#"
+                href="/"
                 className={`header__navLink ${isPopupOpen ? "active" : ""}`}
                 onClick={handleServicesClick}
               >
@@ -46,7 +46,7 @@ function Header() {
               </Link>
             </li>
             <li className="header__navItem">
-              <a href="#" className="header__navLink">
+              <a href="/" className="header__navLink">
                 Запис на прийом
               </a>
             </li>

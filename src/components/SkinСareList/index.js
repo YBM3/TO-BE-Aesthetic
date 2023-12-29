@@ -35,7 +35,7 @@ function SkinCareList({ isMenuOpen }) {
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [skinCareData]);
+  }, [contentRefs]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -47,7 +47,7 @@ function SkinCareList({ isMenuOpen }) {
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [skinCareData]);
+  }, [listRefs]);
 
   useEffect(() => {
     setListHeights(
@@ -55,7 +55,7 @@ function SkinCareList({ isMenuOpen }) {
         listRefs[index].current ? listRefs[index].current.scrollHeight : 0
       )
     );
-  }, [skinCareData]);
+  }, [listRefs]);
 
   const handleClick = (i) => {
     setExpandedItem(expandedItem === i ? null : i);
