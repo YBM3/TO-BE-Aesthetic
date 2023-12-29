@@ -4,27 +4,30 @@ import React, {
   useRef,
   createRef,
   useLayoutEffect,
+  useMemo,
+  useCallback,
 } from "react";
 import "./index.css";
 import arrowDown from "../../assets/img/Vector 6.svg";
-import skinCareData from "../../Data/services/SkinCareData.json";
 
-function SkinCareList({ isMenuOpen }) {
+function SkinCareList({ data, isMenuOpen }) {
   const [expandedSection, setExpandedSection] = useState(null);
   const [expandedItem, setExpandedItem] = useState(null);
   const contentRef = useRef(null);
   const [heights, setHeights] = useState([]);
   const [listHeights, setListHeights] = useState([]);
 
-  const listRefs = skinCareData.map(() => createRef());
+  const listRefs = useMemo(() => data.map(() => createRef()), [data]);
 
-  const contentRefs = skinCareData.map((section) =>
-    section.items.map(() => createRef())
+  const contentRefs = useMemo(
+    () => data.map((section) => section.items.map(() => createRef())),
+    [data]
   );
+
   useLayoutEffect(() => {
     const timer = setTimeout(() => {
       setHeights(
-        skinCareData.map((section, sectionIndex) =>
+        data.map((section, sectionIndex) =>
           section.items.map((_, itemIndex) =>
             contentRefs[sectionIndex][itemIndex].current
               ? contentRefs[sectionIndex][itemIndex].current.scrollHeight
@@ -35,34 +38,29 @@ function SkinCareList({ isMenuOpen }) {
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [contentRefs]);
+  }, [contentRefs, data]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setListHeights(
-        skinCareData.map((_, index) =>
+        data.map((_, index) =>
           listRefs[index].current ? listRefs[index].current.scrollHeight : 0
         )
       );
     }, 0);
 
     return () => clearTimeout(timer);
-  }, [listRefs]);
+  }, [listRefs, data]);
 
-  useEffect(() => {
-    setListHeights(
-      skinCareData.map((_, index) =>
-        listRefs[index].current ? listRefs[index].current.scrollHeight : 0
-      )
-    );
-  }, [listRefs]);
-
-  const handleClick = (i) => {
-    setExpandedItem(expandedItem === i ? null : i);
-    if (contentRef.current && contentRef.current.scrollHeight) {
-      contentRef.current.style.maxHeight = `${contentRef.current.scrollHeight}px`;
-    }
-  };
+  const handleClick = useCallback(
+    (i) => {
+      setExpandedItem(expandedItem === i ? null : i);
+      if (contentRef.current && contentRef.current.scrollHeight) {
+        contentRef.current.style.maxHeight = `${contentRef.current.scrollHeight}px`;
+      }
+    },
+    [expandedItem]
+  );
 
   return (
     <div
@@ -70,10 +68,13 @@ function SkinCareList({ isMenuOpen }) {
         isMenuOpen ? "menu__open" : "menu__close"
       }`}
       style={{
-        maxHeight: expandedSection !== null ? `${listHeights.reduce((a, b) => a + b, 0)}px` : "276px",
+        maxHeight:
+          expandedSection !== null
+            ? `${listHeights.reduce((a, b) => a + b, 0)}px`
+            : `${data.length * 78.75}px`,
       }}
     >
-      {skinCareData.map((section, index) => (
+      {data.map((section, index) => (
         <div key={index} className="services__content_menu__item">
           <div className="services__content_menu__itemBox">
             <div

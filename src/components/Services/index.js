@@ -2,24 +2,20 @@ import React, { useState } from "react";
 import "./index.css";
 
 import SkinCareList from "../SkinСareList";
-import InjectionCosmetologyList from "../InjectionCosmetologyList";
-import SpaProceduresLsit from "../SpaProceduresList";
+
+import skinCareData from "../../Data/services/SkinCareData.json";
+import SpaProceduresData from "../../Data/services/SpaProceduresData.json";
+import InjectionCosmetologyData from "../../Data/services/InjectionCosmetologyData.json";
 
 function Services() {
-  const [isMenuOpenSkinCareList, setIsMenuOpenSkinCareList] = useState(false);
-  const [isMenuOpenInjection, setIsMenuOpenInjection] = useState(false);
-  const [isMenuOpenSpa, setIsMenuOpenSpa] = useState(false);
+  const [menuOpen, setMenuOpen] = useState({
+    skinCareList: false,
+    injection: false,
+    spa: false,
+  });
 
-  const handleMenuClick = () => {
-    setIsMenuOpenSkinCareList(!isMenuOpenSkinCareList);
-  };
-
-  const handleMenuClickInjection = () => {
-    setIsMenuOpenInjection(!isMenuOpenInjection);
-  };
-
-  const handleMenuClickSpa = () => {
-    setIsMenuOpenSpa(!isMenuOpenSpa);
+  const handleMenuClick = (menu) => {
+    setMenuOpen((prev) => ({ ...prev, [menu]: !prev[menu] }));
   };
 
   return (
@@ -34,39 +30,45 @@ function Services() {
               <div className="services__content_item__title">
                 <h1
                   className="services__content_item__titleText"
-                  onClick={handleMenuClick}
+                  onClick={() => handleMenuClick("skinCareList")}
                 >
                   Естетична косметологія
                 </h1>
               </div>
             </div>
-            <SkinCareList isMenuOpen={isMenuOpenSkinCareList} />
+            <SkinCareList
+              data={skinCareData}
+              isMenuOpen={menuOpen.skinCareList}
+            />
           </div>
           <div className="services__content_itemBox">
             <div className="services__content_item">
               <div className="services__content_item__title">
                 <h1
                   className="services__content_item__titleText"
-                  onClick={handleMenuClickInjection}
+                  onClick={() => handleMenuClick("injection")}
                 >
                   Інʼєкційна косметологія
                 </h1>
               </div>
             </div>
-            <InjectionCosmetologyList isMenuOpen={isMenuOpenInjection} />
+            <SkinCareList
+              data={InjectionCosmetologyData}
+              isMenuOpen={menuOpen.injection}
+            />
           </div>
           <div className="services__content_itemBox">
             <div className="services__content_item">
               <div className="services__content_item__title">
                 <h1
                   className="services__content_item__titleText"
-                  onClick={handleMenuClickSpa}
+                  onClick={() => handleMenuClick("spa")}
                 >
                   Спа процедури і програми схуднення
                 </h1>
               </div>
             </div>
-            <SpaProceduresLsit isMenuOpen={isMenuOpenSpa} />
+            <SkinCareList data={SpaProceduresData} isMenuOpen={menuOpen.spa} />
           </div>
         </div>
       </div>

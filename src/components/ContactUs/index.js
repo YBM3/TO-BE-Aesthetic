@@ -103,11 +103,11 @@ function ContactUs() {
               type="submit"
               className="contactUs__button header_section__button "
             >
-              <sppan className="contactUs__buttonText header_section__buttonText">
+              <span className="contactUs__buttonText header_section__buttonText">
                 Записатись
                 <br />
                 на прийом
-              </sppan>
+              </span>
             </button>
           </form>
         </div>
