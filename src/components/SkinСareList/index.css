@@ -221,3 +221,18 @@
   transition: all 0.5s ease-in-out;
 }
 
+
+.services__item__textBoxPadding {
+  display: block;
+  padding-top: 40px;
+  padding-left: 0px;  
+  text-decoration: none;
+}
+
+.services__item__textBoxPaddingLast {
+  display: block;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-bottom: 80px;
+  text-decoration: none;
+}

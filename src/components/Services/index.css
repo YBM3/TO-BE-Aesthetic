@@ -114,6 +114,7 @@
 }
 
 .services__content_menu__item {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -138,16 +139,16 @@
   gap: 40px;
 }
 
-.open {
-  rotate: 180deg;
-}
-
 .services__list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   
+}
+
+.listNoDescriptionEnd {
+  padding-bottom: 40px;
 }
 
 .services__list__itemBox {

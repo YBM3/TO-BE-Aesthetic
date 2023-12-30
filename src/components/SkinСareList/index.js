@@ -85,7 +85,18 @@ function SkinCareList({ data, isMenuOpen }) {
               }}
             >
               {section.title}
-              <img src={arrowDown} alt="" className="open" />
+              <img
+                src={arrowDown}
+                alt=""
+                className="open"
+                style={{
+                  transform:
+                    expandedSection === index
+                      ? "rotate(180deg)"
+                      : "rotate(0deg)",
+                  transition: "transform 0.5s ease",
+                }}
+              />
             </div>
             <div
               ref={listRefs[index]}

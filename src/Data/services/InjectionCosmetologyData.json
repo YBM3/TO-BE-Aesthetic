@@ -622,7 +622,7 @@
       },
       {
         "title": "Radiesse – це один із найбільш вивчених філерів у світі, (схвалений FDA), який не викликає запальної реакції в тканинах, а також не мігрує. Згодом філер повністю виводиться (біодеградує) з організму природним шляхом. Важливо розуміти, що препарати на основі гіалуронової кислоти та препарати гідроксиапатиту кальцію кардинально відрізняються.",
-        "class": "services__item__textBoxPadding",
+        "class": "services__item__textBox",
         "description": []
       },
       {
@@ -778,7 +778,7 @@
       },
       {
         "title": "Схильність до утворення келоїдних рубців.",
-        "class": "listNoDescription services__item__textBoxPaddingLast",
+        "class": "listNoDescription listNoDescriptionLast",
         "description": []
       }
     ]
@@ -889,7 +889,7 @@
       },
       {
         "title": " Вік до 18 років.",
-        "class": "services__item__textBoxFirst services__item__textBoxPaddingLast listNoDescription",
+        "class": "services__item__textBoxFirst listNoDescriptionEnd",
         "description": []
       }
     ]
