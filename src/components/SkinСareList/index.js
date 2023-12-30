@@ -62,8 +62,11 @@ function SkinCareList({ data, isMenuOpen }) {
     [expandedItem]
   );
 
+  const menuRef = useRef(null);
+
   return (
     <div
+      ref={menuRef}
       className={`services__content_menu ${
         isMenuOpen ? "menu__open" : "menu__close"
       }`}
@@ -80,8 +83,18 @@ function SkinCareList({ data, isMenuOpen }) {
             <div
               className="services__menu__textBox"
               onClick={() => {
-                setExpandedSection(expandedSection === index ? null : index);
-                setExpandedItem(null);
+                if (expandedSection !== index) {
+                  setExpandedSection(index);
+                  setExpandedItem(null);
+                  if (menuRef.current) {
+                    menuRef.current.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  }
+                } else {
+                  setExpandedSection(null);
+                }
               }}
             >
               {section.title}

@@ -889,7 +889,7 @@
       },
       {
         "title": " Вік до 18 років.",
-        "class": "services__item__textBoxFirst listNoDescriptionEnd",
+        "class": "services__item__textBoxFirst  listNoDescriptionLast listNoDescriptionEnd",
         "description": []
       }
     ]

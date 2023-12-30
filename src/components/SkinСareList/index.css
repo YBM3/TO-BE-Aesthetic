@@ -31,14 +31,14 @@
 .services__item__textBox {
   display: block;
   padding-top: 24px;
-  padding-left: 0px;  
+  padding-left: 0px;
   text-decoration: none;
 }
 
 .services__item__textBoxAfterList {
   display: block;
   padding-top: 40px;
-  padding-left: 0px;  
+  padding-left: 0px;
   text-decoration: none;
 }
 
@@ -50,24 +50,22 @@
 .services__item__textBoxLast {
   display: block;
   padding-bottom: 80px;
-  padding-left: 0px;  
+  padding-left: 0px;
   text-decoration: none;
-
 }
 
 .services__item__textBoxFirst {
   display: block;
   padding-bottom: 40px;
-  padding-left: 0px;  
+  padding-left: 0px;
   text-decoration: none;
 }
 
 .services__item__textFirst {
   display: block;
   padding-top: 0px;
-  padding-left: 0px;  
+  padding-left: 0px;
   text-decoration: none;
-
 }
 
 .list {
@@ -103,6 +101,10 @@
   position: absolute;
   top: 15px;
   left: 4px;
+}
+
+.listNoDescriptionEnd {
+  padding-bottom: 40px !important;
 }
 
 .listNoDescriptionLast {
@@ -190,7 +192,6 @@
   padding-top: 40px;
 }
 
-
 .services__list__noDescription {
   padding-left: 40px;
 }
@@ -199,7 +200,7 @@
   display: block;
   padding-top: 24px;
   padding-bottom: 40px;
-  padding-left: 0px;  
+  padding-left: 0px;
   text-decoration: none;
 }
 
@@ -221,11 +222,10 @@
   transition: all 0.5s ease-in-out;
 }
 
-
 .services__item__textBoxPadding {
   display: block;
   padding-top: 40px;
-  padding-left: 0px;  
+  padding-left: 0px;
   text-decoration: none;
 }
 
